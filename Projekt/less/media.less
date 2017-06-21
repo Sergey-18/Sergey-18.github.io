@@ -1,0 +1,166 @@
+/* Colors */
+@main-black: rgb(26, 26, 24);
+@white: rgb(255, 255, 255);
+@btn: rgb(0, 163, 212);
+@bg-light: #f3f3f3;
+
+
+@media (min-width: 480px)and(max-width: 768px)and(orientation: landscape){
+	html{
+		font-size: 10px;
+	}
+}
+
+@media (min-width: 480px)and(max-width: 768px)and(orientation: portrait){
+	html{
+		font-size: 12px;
+	}
+}
+
+@media (min-width: 768px)and(max-width: 991px){
+	html{
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 992px)and(max-width: 1199px){
+	html{
+		font-size: 14px;
+	}
+	.contacts{
+		text-align: left;
+		h2{
+			margin-top: 2rem;
+			padding-left: .5rem;
+		}
+		p{
+			margin-top: 2rem;
+		}
+		a{
+			display: inline-block;
+			font-size: 1.5rem;
+		}
+	}
+}
+
+@media (min-width: 1200px){
+	html{
+		font-size: 14px;
+	}
+	.visible-lg{
+		display: block;
+	}
+	.hidden-lg{
+		display: none;;
+	}
+	h1 span{
+		display: inline-block;
+	}
+	.header-text{
+		p{
+			span{
+				display: inline-block;
+			}
+		}
+	}
+	.main-logo{
+		padding-top: 12rem;
+    }
+	.about{
+		&-text{
+			h2{
+			text-align: left;
+		}
+		p{
+			font-size: 1.2rem;
+		}
+		text-align: left;
+	}
+		&-features{
+			p{
+				font-size: 1.2rem;
+			}
+			img{
+				margin-top: 3rem;
+				width: 4rem;
+			}
+		}
+	}
+	.format{
+		&-text{
+			margin-top: -2rem;
+			float: right;
+		}
+	}
+	.video-text{
+		padding-top: 6rem;
+	}
+	.navigation-desctop{
+		text-align: right;
+		li{
+			display: inline-block;
+			margin-left: 1rem;
+			a{
+				display: inline-block;
+				color: @white; 
+				position: relative; 
+				&.nav-item:after{
+					transition: all 0.2s;  
+					content: '';
+					position: absolute;
+					width: 100%;
+					height: 2px;
+					bottom: -5px;
+					left: 50%;
+					transform: translateX(-50%) scaleX(0);
+					background: @btn;
+				}
+				&:hover{
+				&.nav-item:after{
+					content: '';
+					position: absolute;
+					width: 100%;
+					height: 2px;
+					bottom: -5px;
+					left: 50%;
+					transform: translateX(-50%) scaleX(1);
+					background: @btn;
+				}
+			}
+			}
+		}
+	}
+	.offer-btn{
+		display: inline-block;
+		border: 1px solid @btn;
+		padding: 1rem; 
+		color: @white;
+		border-radius: 5px;
+		&:hover{
+			color: @white;
+			background: @btn;   
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
