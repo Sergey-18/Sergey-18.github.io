@@ -122,7 +122,7 @@ a.hoverline:hover:before{
 	transition: 0.3s ease;
 }
 
-.bue2 {
+.rotanov {
 	font-size: 14px;
 	font-weight: 600;
 	color: rgba(255,255,255,0.8);
@@ -133,18 +133,18 @@ a.hoverline:hover:before{
 }
 /*.bue2:hover {
 	color: rgba(255,255,255,1);
-}*/
+}
 
 .bue span {
 	font-weight: 600;
 	color: rgba(255, 255, 255, 1);
-}
+}*/
 
-.bue2:hover {
+.rotanov:hover {
 	color: rgba(255,255,255,1);
 }
 
-.bue2:after {
+.rotanov:after {
   content: '';
   display: block;
   color: white;
@@ -156,18 +156,18 @@ a.hoverline:hover:before{
   transition: 0.4s;
 }
 
-.bue2:hover:after{
+.rotanov:hover:after{
 	width: 100%;
 }
 
-.bue2.about {
+.rotanov.about {
 	float: right;
 	color: rgba(255,255,255,0.5);
 }
-.bue2.about:after {
+.rotanov.about:after {
 	border-bottom: 1px solid rgba(255, 204, 115, 1);
 }
-.bue2.about:hover {
+.rotanov.about:hover {
 	color: rgba(255, 204, 115, 1);
 }
 
@@ -283,28 +283,6 @@ nav.detached {
 	color: rgba(0, 0, 0, 0.6);
 	margin-top: 10px;
 }
-/*
-.title4 {
-	font-weight: 400;
-	/*font-style: italic;*/
-/*	font-size: 14px;
-	line-height: 1.6;
-	color: rgba(0, 0, 0, 0.5);
-	margin-top: 60px;
-}*/
-
-/*.me {
-	right: 0px;
-	height: 100%;
-	width: 430px;
-	background: rgba(239, 127, 122, 1) url("../images/me.png") no-repeat;
-	background-size: cover;
-	position: absolute;
-}
-
-.me.multiply {
-	background-blend-mode: multiply;
-}*/
 
 .work {
 	padding: 80px 0px;
@@ -325,7 +303,6 @@ nav.detached {
 }
 
 .preview-info {
-	/*height: 220px;*/
 	padding: 75px 0px;
 }
 
@@ -388,7 +365,6 @@ nav.detached {
 	font-weight: 700;
 	letter-spacing: 0px;
 	color: rgba(0,0,0,1);
-	/*margin-bottom: 24px;*/
 }
 
 .project-title-mb {
@@ -466,7 +442,6 @@ nav.detached {
     border-radius: 20px;
     border: solid 2px black;
     transition: 0.5s ease;
-/*    background-color: rgba(174, 112, 255, 1);*/
 }
 
 .next:hover {
@@ -491,21 +466,6 @@ nav.detached {
 	width: 200px;
 	margin: 40px auto;
 }
-
-/*
-.me_text {
-	color: red;
-	text-decoration: underline;
-	cursor: pointer;
-}
-.me_text:hover ~ .me {
-	opacity: 1;
-	right: -50%;
-	display: block;
-	cursor: pointer;
-}
-*/
-
 
 /*-------------ME-------------*/
 
@@ -613,7 +573,6 @@ button:focus {
 	transform: scale(1.1,1.1);
 	background-color: rgba(44, 16, 132, 1);
 	color: rgba(255, 204, 115, 1);	
-	/*border: solid 2px rgba(44, 16, 132, 0.2);*/
 }
 
 .fa-linkedin {
@@ -828,7 +787,6 @@ footer{
         margin-bottom: 30px;
     }
     .preview-info {
-        /*height: 130px;*/
         padding: 10px 0px;
         
     }
