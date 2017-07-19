@@ -9,18 +9,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	  <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-    
-    <!--
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-74818550-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>-->
+    <!-- Yandex.Metrika counter -->
+     <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter45360696 = new Ya.Metrika({ id:45360696, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/45360696" style="position:absolute; left:-9999px;" alt="" /></div></noscript> 
+     <!-- /Yandex.Metrika counter -->
   </head>
 
   <body class="body">
@@ -28,11 +20,11 @@
 <!-- Navigation -->
 
     <div class="primary-nav">
-      <div class="container">
-        <a href="index.html" class="bue2">Sergey Rotanov</a>  <!--  Исправить  -->
-        <a href="me.html" class="bue2 about">ABOUT + CONTACT</a> <!--  Исправить  -->
+        <div class="container">
+            <a href="index.html" class="rotanov">Sergey Rotanov</a>
+            <a href="me.html" class="rotanov about">ABOUT + CONTACT</a>
+        </div>
     </div>
-  </div>
 
 
   <!-- Section Me -->
@@ -43,7 +35,7 @@
 	          	<div class="col-md-6">
 	        		<div class="row">
 	        			<div class="col-md-10">
-	        				<div class="title">Просто парень который хочет создавать крутые вещи </div>
+	        				<div class="title">Просто парень который хочет создавать крутые вещи</div>
 	    				</div>
 	    			</div>
 	    			<div class="row">
@@ -62,7 +54,7 @@
 	    			</div>
 	        	</div>
 	        	<div class="portrait">
-	        		<img src="images/Face-01.png" class="img-responsive">
+	        		<img src="images/Face-01.png" alt="Sergey Rotanov" class="img-responsive">
 	        	</div>
 	        </div>
       </div>
@@ -85,7 +77,6 @@
                     <div class="footer-project"><a href="https://github.com/Sergey-18" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>github</a></div>
                     
                     <div class="footer-project"><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i>Telegram</a></div>
-                    <!-- <div class="footer-project"><a href="http://erikbue.com/vyo">Vyo</a></div> -->
                 </div>
                 <div class="col-md-4 col-md-pull-8 col-sm-5 col-sm-pull-7">
                     <div class="copyright1">&copy; Sergey Rotanov</div>
@@ -103,11 +94,6 @@
       $(function() {
     // Get page title
       var pageTitle = $("title").text();
-
-    // Change page title on blur
-/*    $(window).blur(function() {
-      $("title").text("Baby come back...");
-    }); */
 
     // Change page title back on focus
     $(window).focus(function() {

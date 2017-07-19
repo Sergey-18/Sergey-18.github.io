@@ -14,18 +14,10 @@
 
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-    
-  <!--
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-74818550-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>-->
+    <!-- Yandex.Metrika counter -->
+     <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter45360696 = new Ya.Metrika({ id:45360696, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/45360696" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+     <!-- /Yandex.Metrika counter -->
   </head>
 
   <body class="body">
@@ -33,8 +25,8 @@
   <nav>
     <div class="primary-nav">
         <div class="container">
-            <a href="index.html" class="bue2">Sergey Rotanov</a>
-            <a href="me.html" class="bue2 about">ABOUT + CONTACT</a>
+            <a href="index.html" class="rotanov">Sergey Rotanov</a>
+            <a href="me.html" class="rotanov about">ABOUT + CONTACT</a>
         </div>
     </div>
   </nav>
@@ -51,17 +43,10 @@
         <div class="row">
           <div class="col-md-12">
             <div class="title2">Меня зовут Сергей Ротанов
-<br> Я - программист, разработчик и веб-архитектор</div>
-    <!--        <div class="title3">( Bue sounds like "cue" or "hue"  )</div>-->
+              <br> Я - программист, разработчик и веб-архитектор
+            </div>
           </div>
         </div>
-<!--
-        <div class="row">
-          <div class="col-md-4 col-md-offset-8">
-            <div class="title4">Oh, and about the whole devil’s advocate thing — I believe it’s very important to question everything, and my head is constantly full of “what ifs” and “why nots.”</div>
-          </div>
-        </div>
--->
       </div>
     </section>
 
@@ -78,7 +63,7 @@
         <a href="http://mlm-servis.ru" target="_blank">
           <div class="row preview-row">
             <div class="col-md-4 col-sm-4">
-              <img src="images/zac.png" class="img-responsive">
+              <img src="images/zac.png" alt="mlm-servis" class="img-responsive">
             </div>
             <div class="col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1">
               <div class="preview-info">
@@ -92,7 +77,7 @@
         <a href="https://sergey-18.github.io" target="_blank">
           <div class="row preview-row">
             <div class="col-md-4 col-sm-4">
-              <img src="images/global.png" class="img-responsive">
+              <img src="images/global.png" alt="global" class="img-responsive">
             </div>
             <div class="col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1">
               <div class="preview-info">
@@ -106,7 +91,7 @@
         <a href="https://sergey-18.github.io/Projekt/" target="_blank">
           <div class="row preview-row">
             <div class="col-md-4 col-sm-4">
-              <img src="images/work.png" class="img-responsive">
+              <img src="images/work.png" alt="Project" class="img-responsive">
             </div>
             <div class="col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1">
               <div class="preview-info">
@@ -133,8 +118,7 @@
                     <div class="footer-project"><a href="https://www.facebook.com/sergei.rotanov.9" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i>Facebook</a></div>
                     <div class="footer-project"><a href="https://github.com/Sergey-18" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>github</a></div>
                     
-                    <div class="footer-project"><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i>Telegram</a></div><!--
-                    <div class="footer-project"><a href="#">SAP Scouting</a></div>-->
+                    <div class="footer-project"><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i>Telegram</a></div>
                 </div>
                 <div class="col-md-4 col-md-pull-8 col-sm-5 col-sm-pull-7">
                     <div class="copyright1">&copy; Sergey Rotanov</div>
@@ -143,10 +127,6 @@
           </div>
         </div>
     </footer>
-
-
-
-
 
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -158,11 +138,6 @@
     // Get page title
       var pageTitle = $("title").text();
 
-    // Change page title on blur
-   /* $(window).blur(function() {
-      $("title").text("Baby come back...");
-    });*/
-
     // Change page title back on focus
     $(window).focus(function() {
       $("title").text(pageTitle);
@@ -170,20 +145,7 @@
   });
     </script>
     
-    
-    <!-- TYPED.JS 
-
-    <script src="js/typed.js"></script>
-    <script>
-      $(function(){
-          $(".bue").typed({
-            strings: ["A room with a <span>Bue</span>", "It's a <span>Bue</span>-tiful day", "I woke up in a new <span>Bue</span>-gatti"],
-            typeSpeed: 40
-          });
-      });
-    </script>
-
-  -->
+ 
 
   </body>
 </html>
