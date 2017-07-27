@@ -1,0 +1,122 @@
+/* Colors */
+@media (min-width: 480px) and (max-width: 768px) and (orientation: landscape) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) and (orientation: portrait) {
+  html {
+    font-size: 12px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  html {
+    font-size: 14px;
+  }
+  .contacts {
+    text-align: left;
+  }
+  .contacts h2 {
+    margin-top: 2rem;
+    padding-left: .5rem;
+  }
+  .contacts p {
+    margin-top: 2rem;
+  }
+  .contacts a {
+    display: inline-block;
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  html {
+    font-size: 14px;
+  }
+  .visible-lg {
+    display: block;
+  }
+  .hidden-lg {
+    display: none;
+  }
+  h1 span {
+    display: inline-block;
+  }
+  .header-text p span {
+    display: inline-block;
+  }
+  .main-logo {
+    padding-top: 12rem;
+  }
+  .about-text {
+    text-align: left;
+  }
+  .about-text h2 {
+    text-align: left;
+  }
+  .about-text p {
+    font-size: 1.2rem;
+  }
+  .about-features p {
+    font-size: 1.2rem;
+  }
+  .about-features img {
+    margin-top: 0rem;
+    width: 4rem;
+  }
+  .format-text {
+    margin-top: -2rem;
+    float: right;
+  }
+  .video-text {
+    padding-top: 6rem;
+  }
+  .navigation-desctop {
+    text-align: right;
+  }
+  .navigation-desctop li {
+    display: inline-block;
+    margin-left: 1rem;
+  }
+  .navigation-desctop li a {
+    display: inline-block;
+    color: #ffffff;
+    position: relative;
+  }
+  .navigation-desctop li a.nav-item:after {
+    transition: all 0.2s;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    background: #00a3d4;
+  }
+  .navigation-desctop li a:hover.nav-item:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%) scaleX(1);
+    background: #00a3d4;
+  }
+  .offer-btn {
+    display: inline-block;
+    border: 1px solid #00a3d4;
+    padding: 1rem;
+    color: #ffffff;
+    border-radius: 5px;
+  }
+  .offer-btn:hover {
+    color: #ffffff;
+    background: #00a3d4;
+  }
+}
