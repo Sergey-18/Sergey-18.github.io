@@ -41,7 +41,7 @@
         // replace previous scroll position with new one
         previousScroll = currentScroll;
       }
-    })
+    });
     
 
 
