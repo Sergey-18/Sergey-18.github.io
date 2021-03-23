@@ -1,3 +1,38 @@
+/* Шрифты  */
+@font-face {
+    font-family: 'ProximaNova_bold';
+    src: url('../fonts/ProximaNova-Bold.eot');
+    src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Bold.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Bold.woff') format('woff'),
+        url('../fonts/ProximaNova-Bold.ttf') format('truetype'),
+        url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova_Reg';
+    src: url('../fonts/ProximaNova-Regular.eot');
+    src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Regular.woff') format('woff'),
+        url('../fonts/ProximaNova-Regular.ttf') format('truetype'),
+        url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.reg(){
+    font-family: 'Proxima Nova_Reg', sans-serif;
+}
+
+.bold{
+    font-family: 'ProximaNova_bold', sans-serif;
+}
+
 /* Базовые цвета */ 
 
 @btn-color: #fcb303;
@@ -7,10 +42,14 @@
 @bg-light: #f5f5f5;
 @light: #fff;
 
-
 /* Базовые настройки */
+
 html{
     font-size: 10px;
+}
+
+body{
+    .reg();
 }
 
 .button{
@@ -49,13 +88,13 @@ main{
 
 .phone-link{
     display: inline-block;
-    color: @text;
+    .bold();
     font-weight: 900;
     font-size: 2rem;
     height: 7rem;
     line-height: 7rem;
+    color: @text;
 }
-
 
 
 
