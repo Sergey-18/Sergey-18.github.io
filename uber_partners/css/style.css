@@ -1,0 +1,227 @@
+* {
+    font-family: 'Roboto' sans-serif;
+}
+
+header{
+    position: relative;
+}
+
+nav {
+    height: 50px;
+    background-color: #212121;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none; 
+}
+
+.menu .items_border {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+/* subheader */
+
+.subheader {
+    position: absolute;
+    width: 100%;
+    height: 84px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader .subheader_official{
+    opacity: .5;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 3px;
+}
+
+.subheader .subheader_call {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 19px;
+    text-align: right;
+
+}
+
+.subheader .subheader_phone {
+    display: block;
+    margin-top: 8px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: right;
+    text-decoration: none;
+    line-height: 12px;
+}
+
+.subheader .subheader_btn {
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    margin-top: 19px;
+    /* текст btn */
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* <!-- section promo --> */
+
+.promo {
+    min-height: 800px;
+    background: url(../img/uber_bg.jpg) center center / cover no-repeat;
+    padding: 150px 135px 0;
+}
+
+.promo .promo_header {
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0;
+    text-align: center;
+}
+
+.promo .promo_subheader {
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 22px;
+    text-align: center;
+}
+
+.promo .promo_descr {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.promo .promo_btn {
+    display: block;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+    margin: 0 auto;
+    margin-top: 115px;
+    /* text_btn */
+    color: #FFFFFF;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/* <!-- section 8 причин начать работать с нами --> */
+
+
+.work {
+    padding: 77px 0 65px 0;
+}
+
+.work .label {
+    margin: 0 auto;
+    height: 24px;
+    width: 112px;
+    padding: 4px 10px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.work .work_title {
+    color: #222222;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 38px;
+    margin-top: 33px;
+
+}
+
+/* .work .work_card {
+    min-height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+} */
+
+
+.work  .work_card .work_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 113px;
+    height: 113px;
+    background: #1EACC7;
+    border-radius: 100%;
+    margin-right: 26px;
+  
+}
+
+.work .work_card .work_descr {
+    width: 343px;
+}
+
+.work .work_card .work_subtitle {
+    color: #1EACC7;
+    font-weight: 400;
+    font-size: 17px;
+  
+}
+
+.work .work_card .work_text {
+    color: #202020;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
