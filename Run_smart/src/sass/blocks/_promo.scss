@@ -52,6 +52,9 @@
             color: $color_white_text;
             text-decoration: underline;
             text-transform: uppercase;
+            &:hover {
+                color: #c70101;
+            }
         }
     }
 }
