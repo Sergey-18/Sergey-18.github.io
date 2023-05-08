@@ -2,43 +2,10 @@
     min-height: 680px;
     padding: 100px 0 108px 0;
     background: url(../img/consultation-bg.jpg) center (center / cover) no-repeat;
-    .title_left {
-        color: $color_white_text;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 54px;
-        text-align: left;
-        text-transform: uppercase;
-    }
     &__descr {
         color: $color_white_text;
         font-weight: 500;
         font-size: 20px;
         line-height: 30px;
-    }
-    form {
-        margin-top: 25px;
-        input {
-            display: block;
-            width: 303px;
-            height: 54px;
-            margin-top: 11px;
-            background: $color_white_text;
-            border: none;
-            border-radius: 5px;
-            padding-left: 21px;
-            font-weight: 400;
-            font-size: 14px;
-            color: #4B4B4B;
-        }
-        .button_submit {
-            width: 303px;
-            height: 58px;
-            background: $color_btn;
-            margin-top: 17px;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 16px;
-        }
     }
 }
